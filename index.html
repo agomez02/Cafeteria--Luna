@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Cafeteria Luna</title>
+</head>
+
+<body>
+    <div id="contenedor">
+     
+        <div id="cabecera">
+            <img src="images/luna.png" alt="Muestra una imagen de luna">
+            <h1>Cafeteria <span class='spanmorado'>Luna</span></h1>
+        </div>
+       
+        <div id="nav">
+            <ul id="menu">
+                <li><a class="active" href="#opciones">Opciones</a></li>
+                <li><a href="#desayuno">Desayunos</a></li>
+                <li><a href="#comidas">Comidas</a></li>
+                <li><a href="#Platos combinados">Platos combinados</a></li>
+                <li><a href="#reserva">Reserva online</a></li>
+                <li><a href="#video">Vídeo</a></li>
+            </ul>
+        </div>
+
+        <div id="contenido">
+            <div id="Información" class="apartado">
+                <h1><strong><i>Información Covid-19</i></strong></h1>
+                <img src="images/informacion.jpg" alt="Imagen donde se muestra un virus">
+                <p>
+                    <strong>Barra</strong> se recomienda el menor número de personas en la barra si esta no tiene un tamaño que permita la separación entre trabajadores. Se valorará si se mantiene el servicio en mesa o se pide al cliente que recoja el pedido
+                    en la barra, para evitar el acercamiento entre personal y clientes.
+                </p>
+                <p>
+                    <strong>Sala</strong> se deberá reestructurar la disposición de las mesas en la sala con el fin de respetar el régimen de distancias entre ellas, que deberá ser de 1,5 metros. Habrá geles de hidroalcohol en la entrada del local y a la
+                    salida de los aseos.
+                </p>
+                <p>
+                    <strong> Recepción de pedidos:</strong> es importante establecer diferentes rangos horarios para la recepción de las mercancías para poder desinfectar la zona de recepción entre pedido y pedido.
+                    </p<p>
+                    Se eliminarán los envoltorios de los productos antes de que entren en el local, se desinfectarán, uno por uno, y los productos frescos entrarán en box de plástico previamente desinfectado.
+                </p>
+
+            </div>
+              <div id="#Platoscombinados"  class="apartado">
+                <h1><strong><i>Platos combinados</i></strong></h1>
+                <img src="images/hamburguesa.png" alt="Imagen donde se muestra una hamburguesa">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th><strong>Platos combinados</strong></th>
+                        <th><strong>Ingredientes</strong></th>
+                        <th><strong>Precio</strong></th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Huevos con chorizo</td>
+                        <td>Huevos y patatas</td>
+                        <td>5</td>
+                        </tr>
+                   
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Macarrones </td>
+                        <td>Macarrones, tomate y bacon.</td>
+                        <td>4.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Bocadillo lomo</td> 
+                        <td>Lomo y queso</td>
+                        <td>3.20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Patatas cheesebeacon </td>
+                        <td>Salsa, patatas, beacon y queso</td>
+                        <td>5</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="desayuno" class="apartado">
+                <h1><strong><i>Desayunos</i></strong></h1>
+            <img src="images/desayuno.png" alt="Imagen donde se muestra un desayuno">
+                  <ul>
+                    <li>Tostada base
+                        <ul>
+                            <li>Entera: 2.00</li>
+                            <li>Media: 0.80</li>
+                        </ul>
+                    </li>
+                    <li>Café 
+                        <ul>
+                            <li>solo:1.10</li>
+                            <li>con leche:1.30</li>
+                        </ul>
+                    </li>
+                    <li>Ingredientes
+                        <ul>
+                            <li>Tomate, mantequilla y jamón york: 0.80</li>
+                            <li>Atún, queso y jamón serrano:1.10</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="comidas" class="apartado">
+                <h1><strong><i>Comidas</i></strong></h1>
+                <img src="images/comida.png" alt="Imagen donde se muestra un plato">
+                <ul>
+                    <li>Cocido
+                        <ul>
+                            <li>Menú:10</li>
+                            <li>Plato solo:5</li>
+                        </ul>
+                    </li>
+                    <li>Paella
+                        <ul>
+                            <li>Menú:15</li>
+                            <li>Plato solo:7</li>
+                        </ul>
+                    </li>
+                    <li>Migas
+                        <ul>
+                            <li>Menú:12</li>
+                            <li>Palto solo: 6.50</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+           
+            <div id="reserva" class="apartado">
+                <h1><strong><i>Realiza tu reserva online</i></strong></h1>
+                <img src="images/reserva.png" alt="Imagen donde se muestra un ordenador">
+
+
+                <form action="#" target="" method="get" name="formDatosPersonales">
+
+
+                    <label for="alumno">IdAlumno</label>
+                    <input type="number" type="number" min="999" max="9999" name="alumno" id="alumno" placeholder="identificador del alumno" />
+                    <br>
+                    <label for="menu-select">Selecciona menú:</label>
+
+                    <select name="Menú" id="menú-select">
+                    <option value="">--Elige menú--</option>
+                    <option value="Cocido">Cocido</option>
+                    <option value="Paella">Paella</option>
+                    <option value="Migas">Migas</option>
+                    </select>
+                    <br>
+                    <label for="Informacion extra">informacion</label>
+                    <textarea name="mensaje" for="mensaje" placeholder="Informacion a tener en cuenta" maxlength="300"></textarea>
+
+                    <input type="submit" name="enviar" value="enviar datos" />
+                </form>
+            </div>
+
+            <div id="video" class="apartado">
+                <h1><i><strong>Restaurantes en Almería</strong></i></h1>
+                <p>Aquí os dejamos algunos restaurantes de la tierra.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ull93GeUNCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+
+            <br>
+        </div>
+       
+        <div id="pie">
+            <a href="https://www.eldiario.es/viajes/rutas_gastronomicas/Almeria-capital-gastronomica-comersela_0_867214076.html"><img src="images/logo.png" alt="Muestra el logo IES Alhadra"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
